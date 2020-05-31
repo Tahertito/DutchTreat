@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Product>
+@section scripts{
+
+    <script src="~/clientApp/dist/runtime-es5.js"></script>
+    <script src="~/clientApp/dist/polyfills-es5.js"></script>
+    <script src="~/clientApp/dist/styles-es5.js"></script>
+    <script src="~/clientApp/dist/vendor-es5.js"></script>
+    <script src="~/clientApp/dist/main-es5.js"></script>
+}
+<div class="container">
+    <h1>Shop</h1>
+    <p>Count:@Model.Count()</p>
+    <the-shop>
+
+    </the-shop>
+</div>
+
+
